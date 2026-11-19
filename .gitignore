@@ -1,0 +1,26 @@
+# Ignore log files
+*.log
+
+# Ignore environment files
+.venv
+
+# Ignore all temp files
+temp/
+
+# Ignore VCF files
+*.vcf.*
+*.vcf
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Testcaches
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
